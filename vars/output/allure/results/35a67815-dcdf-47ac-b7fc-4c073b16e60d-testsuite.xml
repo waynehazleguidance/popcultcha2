@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606251350864" stop="1606251420903" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606251350871" stop="1606251420900" status="broken">
+      <name>PopCultcha</name>
+      <failure>
+        <message>Waited for 30 secs but text 'batgirl' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/popcultcha/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/popcultcha/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/popcultcha/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/popcultcha/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/popcultcha/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/popcultcha/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606251352398" stop="1606251361086" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1606251361090" stop="1606251361492" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606251361493" stop="1606251366496" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606251366497" stop="1606251366645" status="passed">
+          <name>click {"css":"•cc-btn"}</name>
+        </step>
+        <step start="1606251366645" stop="1606251371647" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606251371648" stop="1606251374903" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1606251374904" stop="1606251375818" status="passed">
+          <name>wait for text "DC",30</name>
+        </step>
+        <step start="1606251375824" stop="1606251379726" status="passed">
+          <name>see "DC"</name>
+        </step>
+        <step start="1606251379727" stop="1606251379876" status="passed">
+          <name>click {"id":"sorter"}</name>
+        </step>
+        <step start="1606251379877" stop="1606251380877" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606251380877" stop="1606251381516" status="passed">
+          <name>click {"css":"#sorter &gt; option:nth-child(3)"}</name>
+        </step>
+        <step start="1606251381516" stop="1606251386517" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606251386517" stop="1606251389253" status="passed">
+          <name>am on page "/batman-batgirl-adult-costume•html"</name>
+        </step>
+        <step start="1606251389253" stop="1606251419463" status="failed">
+          <name>wait for text "batgirl",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="e9568e986f7ac6a6c4d67449117045d535ee1490-attachment.png" type="image/png"/>
+        <attachment title="html" source="da80727007df747baa4b39250356a87493ff238f-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606252126318" stop="1606252179593" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606252126327" stop="1606252179586" status="passed">
+      <name>PopCultcha</name>
+      <steps>
+        <step start="1606252127992" stop="1606252138489" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1606252138491" stop="1606252138987" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606252138987" stop="1606252143989" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606252143990" stop="1606252144090" status="passed">
+          <name>click {"css":"•cc-btn"}</name>
+        </step>
+        <step start="1606252144090" stop="1606252149093" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606252149093" stop="1606252151340" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1606252151340" stop="1606252152269" status="passed">
+          <name>wait for text "DC",30</name>
+        </step>
+        <step start="1606252152275" stop="1606252155929" status="passed">
+          <name>see "DC"</name>
+        </step>
+        <step start="1606252155929" stop="1606252156470" status="passed">
+          <name>click {"id":"sorter"}</name>
+        </step>
+        <step start="1606252156470" stop="1606252157471" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606252157471" stop="1606252158083" status="passed">
+          <name>click {"css":"#sorter &gt; option:nth-child(3)"}</name>
+        </step>
+        <step start="1606252158084" stop="1606252163084" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606252163084" stop="1606252165477" status="passed">
+          <name>am on page "/batman-batgirl-adult-costume•html"</name>
+        </step>
+        <step start="1606252165477" stop="1606252165860" status="passed">
+          <name>wait for text "Batgirl",30</name>
+        </step>
+        <step start="1606252165860" stop="1606252166019" status="passed">
+          <name>see "Batgirl"</name>
+        </step>
+        <step start="1606252166019" stop="1606252168019" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1606252168019" stop="1606252168129" status="passed">
+          <name>click {"css":"#option-label-tee_size-302-item-13102"}</name>
+        </step>
+        <step start="1606252168129" stop="1606252170131" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1606252170131" stop="1606252170198" status="passed">
+          <name>click {"css":"button•qty-button:nth-child(3)"}</name>
+        </step>
+        <step start="1606252170199" stop="1606252170384" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1606252170384" stop="1606252170481" status="passed">
+          <name>click {"css":"#product-addtocart-button-clone &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1606252170481" stop="1606252175482" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606252175482" stop="1606252179065" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1606252179065" stop="1606252179374" status="passed">
+          <name>wait for text "Shipping",30</name>
+        </step>
+        <step start="1606252179374" stop="1606252179531" status="passed">
+          <name>see "Shipping"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
